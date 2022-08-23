@@ -19,7 +19,7 @@ This project was useful in consolidating the concepts and knowledge from my lear
 
 To view the website please follow this link: https://nt399.github.io/challenge2-portfolio/
 
-![Screenshot of the website](./assets/Screenshot of portfolio website.PNG)
+![Screenshot of the website](https://github.com/NT399/challenge2-portfolio/blob/main/assets/Screenshot%20of%20portfolio%20website.PNG)
 
 ## Credits
 
