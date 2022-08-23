@@ -1,0 +1,107 @@
+:root {
+  --black:#000000;
+  --white: #ffffff;
+  --grey: #222222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tahoma', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+  color: var(--white);
+  background: var(--grey);
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  background-color: var(--black);
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  padding: 25px;
+  background-color: #bbbbbb;
+  text-align: left;
+}
+
+footer {
+  padding: 3px 3px;
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+
+.Work {
+  flex: 4;
+  background-color: rgb(221, 219, 219);
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.contact {
+  line-height: 5px;
+}
+
+.box0 {
+  padding: 10px;
+  flex: 0 0 35%;
+}
+
+.box1 {
+  flex: 0 0 70%;
+  border-style: groove;
+  border-width: 0.01px;
+  padding: 10px;
+}
+
+.box1 img {
+  width: 100%;
+  }  
+
+.box2 {
+  border-style: groove;
+  border-width: 0.01px;
+  flex: 0 0 35%;
+  padding: 10px;
+}
+
+.box2 header {
+  padding: 20px;
+}
+
+.box2 p {
+  text-align: left;
+}
+
+.box1:hover,
+.box2:hover {
+  box-shadow: 0 0 10px var(--grey);
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
